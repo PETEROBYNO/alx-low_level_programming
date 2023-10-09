@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-printf("With proper graimmar, but the outcome is a piece of art,\n");
+printf("with proper graimmar, but the outcome is a piece of art,\n");
 return (0);
 }
