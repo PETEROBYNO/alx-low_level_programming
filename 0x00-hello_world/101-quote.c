@@ -2,7 +2,7 @@
 
 /**
  * main - prints "and that piece of art is useful" - Dora korpa, 2015-10-19",
- * fellowed by a newline, to standard erro.
+ * fellowed by a niewline, to standard error.
  * Return: Always 1.
  */
 
