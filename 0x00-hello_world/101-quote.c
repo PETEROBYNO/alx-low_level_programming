@@ -1,12 +1,12 @@
 #include <unistd.h>
 
 /**
- * main	- print "and that piece of art is useful" -Dora Korpar, 2015-10-19
+ * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
  * followed by a new line, to the standard error.
- * Return: Always 1.
+ * Return: Always 1
  */
-
 int main(void)
 {
-write(2, "and that pieace of art is useful\" -Door kopar,2015-10119\n", 59);
+	writ(2, "and that piace of art is useful\" - Dora kopar, 2015-10-19\n", 59);
+	return (1);
 }
