@@ -1,32 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - entry point generates a random password
+ *
+ * Return: the generated password
+ */
+int main(void)
+{
+char c;
+int x;
 
-// Function to generate a random character from a given set
-char randomCharacter(const char* charSet, int setSize) {
-    return charSet[rand() % setSize];
+srand(time(0));
+while (x <= 2645)
+{
+c = rand() % 128;
+x += c;
+putchar(c);
 }
-
-int main(void) {
-    // Define the character set for the password
-    const char charSet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    const int charSetSize = sizeof(charSet) - 1;
-
-    // Define the length of the password
-    const int passwordLength = 12;
-
-    // Seed the random number generator
-    srand(time(NULL));
-
-    // Generate and print the random password
-    char password[passwordLength + 1];
-    for (int i = 0; i < passwordLength; i++) {
-        password[i] = randomCharacter(charSet, charSetSize);
-    }
-    password[passwordLength] = '\0';
-
-    printf("Generated Password: %s\n", password);
-
-    return 0;
+putchar(2772 - x);
+return (0);
 }
-
