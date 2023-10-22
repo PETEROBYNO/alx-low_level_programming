@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "main.h"
 
 // Function to generate a random character from a given set
 char randomCharacter(const char* charSet, int setSize) {
