@@ -1,5 +1,5 @@
-#ifndef MAIN_HEADER_FILE
-#define MAIN_HEADER_FILE
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 char *create_array(unsigned int size, char c);
